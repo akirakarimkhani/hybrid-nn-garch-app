@@ -1,0 +1,28 @@
+# Web app
+streamlit>=1.35.0
+
+# Core scientific stack
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.13.1
+scikit-learn
+
+# Visualisation
+matplotlib
+seaborn
+
+# Econometric models
+statsmodels
+arch==7.2.0       # GARCH / EGARCH via arch_model
+rpy2==3.6.0       # R bridge for rugarch (requires R + rugarch installed separately)
+
+# Deep learning
+tensorflow==2.16.2
+keras==3.3.3
+torch==2.2.2
+
+# Financial data
+yfinance==0.2.61
+
+# Forecast evaluation
+dieboldmariano==1.1.0
