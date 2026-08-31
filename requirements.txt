@@ -1,10 +1,10 @@
 # Web app
 streamlit>=1.35.0
 
-# Core scientific stack
-numpy>=1.24,<3
-pandas>=2.0
-scipy>=1.11
+# Core scientific stack — all have cp311 wheels
+numpy==1.26.4
+pandas>=2.0,<3
+scipy==1.13.1
 scikit-learn
 
 # Visualisation
@@ -13,11 +13,11 @@ seaborn
 
 # Econometric models
 statsmodels
-arch>=5.0
+arch==7.2.0
 
-# Deep learning
-tensorflow>=2.16
-torch>=2.2
+# Deep learning — tensorflow and torch require Python <=3.12
+tensorflow==2.16.2
+torch==2.2.2
 
 # Financial data
 yfinance>=0.2.50
