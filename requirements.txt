@@ -13,8 +13,7 @@ seaborn
 
 # Econometric models
 statsmodels
-arch==7.2.0       # GARCH / EGARCH via arch_model
-rpy2==3.6.0       # R bridge for rugarch (requires R + rugarch installed separately)
+arch==7.2.0
 
 # Deep learning
 tensorflow==2.16.2
